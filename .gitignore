@@ -20,11 +20,11 @@ venv.bak/
 *.sublime-workspace
 
 # Flask specific
-instance/ # Pasta para configurações e dados específicos da instância (ex: banco de dados SQLite)
-.flaskenv # Arquivo de variáveis de ambiente do Flask
+instance/ 
+.flaskenv 
 
 # Database
-*.db # Para bancos de dados SQLite, como 'app.db' ou 'site.db'
+*.db 
 *.sqlite
 *.sqlite3
 
@@ -32,12 +32,8 @@ instance/ # Pasta para configurações e dados específicos da instância (ex: b
 *.log
 logs/
 
-# Uploads de usuários (se houver)
+# Uploads de usuários 
 uploads/
 
-# Arquivos de sistema operacional
-.DS_Store # macOS
-Thumbs.db # Windows
-
 # Variáveis de ambiente
-.env # Se você usar um arquivo .env para variáveis de ambiente
+.env 
